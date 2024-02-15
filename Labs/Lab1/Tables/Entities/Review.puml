@@ -1,0 +1,10 @@
+@startuml
+entity "Review" as review
+ {
+  + Review_ID : int
+  --
+  # Client_ID : int
+  Review_Text : text
+  Review_Date : date
+}
+@enduml
