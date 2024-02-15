@@ -1,0 +1,9 @@
+@startuml
+entity "Rent" as rent
+{
+  +<&key>Client_ID : int
+  --
+  Rent_Start_Date : date
+  Rent_Duration : int
+}
+@enduml
