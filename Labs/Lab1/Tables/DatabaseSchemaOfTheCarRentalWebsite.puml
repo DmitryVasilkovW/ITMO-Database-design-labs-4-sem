@@ -1,0 +1,12 @@
+@startuml
+!include Entities/Client.puml
+!include Entities/Car.puml
+!include Entities/Review.puml
+!include Entities/RentalAgreement.puml
+!include Entities/Rent.puml
+
+client ||..o{ rental
+car ||..o{ rental
+client ||..o{ review
+client ||..o{ rent
+@enduml
