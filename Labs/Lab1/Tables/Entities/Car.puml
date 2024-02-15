@@ -1,0 +1,12 @@
+@startuml
+entity "Car" as car
+{
+  + Car_ID : int
+  --
+  Brand : varchar
+  Model : varchar
+  Year : int
+  Condition : varchar
+  Rent_Price : float
+}
+@enduml
