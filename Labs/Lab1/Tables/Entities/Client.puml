@@ -1,0 +1,9 @@
+@startuml
+entity "Client" as client
+{
+  +<&key>Client_ID : int
+  --
+  Name : varchar
+  Contact_Info : varchar
+}
+@enduml
