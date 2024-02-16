@@ -1,0 +1,12 @@
+@startuml
+entity "Rental Agreement" as rental
+{
+  + <&key> Agreement_ID : int
+  --
+  # <&key> Client_ID : int
+  # <&key> Car_ID : int
+  <&spreadsheet> Start_Date : date
+  <&spreadsheet> End_Date : date
+  <&spreadsheet> Total_Cost : float
+}
+@enduml

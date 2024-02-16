@@ -1,0 +1,8 @@
+@startuml
+entity "Car Category" as carCategory
+{
+  + <&key> Car_ID : int
+  --
+  <&spreadsheet> Car_Type : varchar
+}
+@enduml
