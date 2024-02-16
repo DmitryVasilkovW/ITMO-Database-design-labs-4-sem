@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="" />
+    <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="fix: variables types">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/DatabaseSchemaOfTheCarRentalWebsite.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/DatabaseSchemaOfTheCarRentalWebsite.puml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Sequence" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -17,10 +37,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Sequence",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "0d570cb2-96df-43cc-80da-7f777e6d0afe",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -33,11 +61,168 @@
       <option name="presentableId" value="Default" />
       <updated>1708011706340</updated>
       <workItem from="1708011707100" duration="5000" />
+      <workItem from="1708012305878" duration="974000" />
+      <workItem from="1708013285901" duration="1009000" />
+      <workItem from="1708015308911" duration="17000" />
+      <workItem from="1708015343530" duration="11579000" />
+      <workItem from="1708032217789" duration="5902000" />
+      <workItem from="1708096965152" duration="12735000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1708012432238</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708012432238</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: car table">
+      <created>1708020114707</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708020114708</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: client table">
+      <created>1708020126557</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708020126557</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: rent table">
+      <created>1708020235050</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708020235050</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: review table">
+      <created>1708020265729</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708020265729</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: rental agreement table">
+      <created>1708020303994</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708020303994</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: database schema of the car rental website table">
+      <created>1708020347244</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708020347244</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix: icons">
+      <created>1708100288138</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708100288138</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: car features">
+      <created>1708106392431</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708106392431</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: car models">
+      <created>1708106416380</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708106416380</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: car type">
+      <created>1708106427922</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708106427922</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: payment">
+      <created>1708106465063</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708106465063</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix: links">
+      <created>1708106520890</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708106520890</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: Brand">
+      <created>1708111496558</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708111496558</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: Car Category">
+      <created>1708111760474</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708111760474</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: rental price">
+      <created>1708111772295</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708111772295</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix: variables types">
+      <created>1708111808082</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1708111808082</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="feat: car table" />
+    <MESSAGE value="feat: client table" />
+    <MESSAGE value="feat: rent table" />
+    <MESSAGE value="feat: review table" />
+    <MESSAGE value="feat: rental agreement table" />
+    <MESSAGE value="feat: database schema of the car rental website table" />
+    <MESSAGE value="fix: icons" />
+    <MESSAGE value="feat: car features" />
+    <MESSAGE value="feat: car models" />
+    <MESSAGE value="feat: car type" />
+    <MESSAGE value="feat: payment" />
+    <MESSAGE value="fix: links" />
+    <MESSAGE value="feat: Brand" />
+    <MESSAGE value="feat: Car Category" />
+    <MESSAGE value="feat: rental price" />
+    <MESSAGE value="fix: variables types" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: variables types" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
