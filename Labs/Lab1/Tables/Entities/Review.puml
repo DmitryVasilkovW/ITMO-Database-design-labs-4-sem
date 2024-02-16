@@ -1,0 +1,10 @@
+@startuml
+entity "Review" as review
+ {
+  + <&key> Review_ID : int
+  --
+  # <&key> Client_ID : int
+  <&spreadsheet> Review_Text : text
+  <&spreadsheet> Review_Date : date
+}
+@enduml
