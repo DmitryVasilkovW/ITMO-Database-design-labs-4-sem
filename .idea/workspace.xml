@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="feat: Brand">
-      <change afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/CarCategory.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/RentalPrice.puml" afterDir="false" />
+    <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="fix: variables types">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/DatabaseSchemaOfTheCarRentalWebsite.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/DatabaseSchemaOfTheCarRentalWebsite.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Car.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Car.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/CarModels.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/CarModels.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/RentalAgreement.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/RentalAgreement.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +66,7 @@
       <workItem from="1708015308911" duration="17000" />
       <workItem from="1708015343530" duration="11579000" />
       <workItem from="1708032217789" duration="5902000" />
-      <workItem from="1708096965152" duration="11443000" />
+      <workItem from="1708096965152" duration="12735000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1708012432238</created>
@@ -171,7 +166,28 @@
       <option name="project" value="LOCAL" />
       <updated>1708111496558</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: Car Category">
+      <created>1708111760474</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708111760474</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: rental price">
+      <created>1708111772295</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708111772295</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix: variables types">
+      <created>1708111808082</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1708111808082</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +219,10 @@
     <MESSAGE value="feat: payment" />
     <MESSAGE value="fix: links" />
     <MESSAGE value="feat: Brand" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Brand" />
+    <MESSAGE value="feat: Car Category" />
+    <MESSAGE value="feat: rental price" />
+    <MESSAGE value="fix: variables types" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: variables types" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

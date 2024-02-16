@@ -26,6 +26,4 @@ car ||..o{ rentalPrice
 brand ||..|| carModel
 car --up[hidden]-- client
 car --up[hidden]- carFeatures
-
-
 @enduml
