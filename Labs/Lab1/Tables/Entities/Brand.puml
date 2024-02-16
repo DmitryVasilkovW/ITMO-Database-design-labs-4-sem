@@ -3,7 +3,7 @@ entity "Brand" as brand
 {
   + <&key> Car_ID : int
   --
-  # <&key> Car_Model : text
-  <&spreadsheet> Brand : text
+  # <&key> Car_Model : varchar
+  <&spreadsheet> Brand : varchar
 }
 @enduml

@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="fix: icons">
-      <change afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/CarFeatures.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/CarModels.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/CarType.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Payment.puml" afterDir="false" />
+    <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="feat: Brand">
+      <change afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/CarCategory.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/RentalPrice.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/DatabaseSchemaOfTheCarRentalWebsite.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/DatabaseSchemaOfTheCarRentalWebsite.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Car.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Car.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Rent.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Rent.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/CarModels.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/CarModels.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/RentalAgreement.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/RentalAgreement.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,7 @@
       <workItem from="1708015308911" duration="17000" />
       <workItem from="1708015343530" duration="11579000" />
       <workItem from="1708032217789" duration="5902000" />
-      <workItem from="1708096965152" duration="6331000" />
+      <workItem from="1708096965152" duration="11443000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1708012432238</created>
@@ -130,7 +129,49 @@
       <option name="project" value="LOCAL" />
       <updated>1708100288138</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: car features">
+      <created>1708106392431</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708106392431</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: car models">
+      <created>1708106416380</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708106416380</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: car type">
+      <created>1708106427922</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708106427922</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: payment">
+      <created>1708106465063</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708106465063</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix: links">
+      <created>1708106520890</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708106520890</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: Brand">
+      <created>1708111496558</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708111496558</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +197,13 @@
     <MESSAGE value="feat: rental agreement table" />
     <MESSAGE value="feat: database schema of the car rental website table" />
     <MESSAGE value="fix: icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: icons" />
+    <MESSAGE value="feat: car features" />
+    <MESSAGE value="feat: car models" />
+    <MESSAGE value="feat: car type" />
+    <MESSAGE value="feat: payment" />
+    <MESSAGE value="fix: links" />
+    <MESSAGE value="feat: Brand" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Brand" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
