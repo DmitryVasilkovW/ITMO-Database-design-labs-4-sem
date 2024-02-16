@@ -7,6 +7,6 @@ entity "Rental Agreement" as rental
   # <&key> Car_ID : int
   <&spreadsheet> Start_Date : date
   <&spreadsheet> End_Date : date
-  <&spreadsheet> Total_Cost : float
+  <&spreadsheet> Total_Cost : numeric
 }
 @enduml
