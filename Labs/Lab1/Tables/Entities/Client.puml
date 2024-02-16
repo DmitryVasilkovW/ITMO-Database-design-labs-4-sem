@@ -1,9 +1,9 @@
 @startuml
 entity "Client" as client
 {
-  +<&key>Client_ID : int
+  +<&key> Client_ID : int
   --
-  Name : varchar
-  Contact_Info : varchar
+  <&spreadsheet> Name : varchar
+  <&spreadsheet> Contact_Info : varchar
 }
 @enduml

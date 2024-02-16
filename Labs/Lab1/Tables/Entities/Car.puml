@@ -1,12 +1,14 @@
 @startuml
 entity "Car" as car
 {
-  + Car_ID : int
+  +<&key> Car_ID : int
   --
-  Brand : varchar
-  Model : varchar
-  Year : int
-  Condition : varchar
-  Rent_Price : float
+  <&spreadsheet> Brand : varchar
+  <&spreadsheet> Model : varchar
+  <&spreadsheet> Vehicle_Model_Year : int
+  <&spreadsheet> Transmission_Type  : varchar
+  <&spreadsheet> Rent_Price : numeric
+  <&spreadsheet> Actuator_Type  : varchar
+  <&spreadsheet> Engine_Displacement : float
 }
 @enduml

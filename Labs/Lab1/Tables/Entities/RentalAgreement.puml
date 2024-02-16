@@ -1,12 +1,12 @@
 @startuml
 entity "Rental Agreement" as rental
 {
-  + Agreement_Number : int
+  + <&key> Agreement_Number : int
   --
-  # Client_ID : int
-  # Car_ID : int
-  Start_Date : date
-  End_Date : date
-  Total_Cost : float
+  # <&key> Client_ID : int
+  # <&key> Car_ID : int
+  <&spreadsheet> Start_Date : date
+  <&spreadsheet> End_Date : date
+  <&spreadsheet> Total_Cost : float
 }
 @enduml
