@@ -4,7 +4,6 @@ entity "Car" as car
   +<&key> Car_ID : int
   --
   <&spreadsheet> Brand : varchar
-  <&spreadsheet> Model : varchar
   <&spreadsheet> Vehicle_Model_Year : int
   <&spreadsheet> Transmission_Type  : varchar
   <&spreadsheet> Rent_Price : numeric

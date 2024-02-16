@@ -4,9 +4,18 @@
 !include Entities/Review.puml
 !include Entities/RentalAgreement.puml
 !include Entities/Rent.puml
+!include Entities/Payment.puml
+!include Entities/CarFeatures.puml
+!include Entities/CarModels.puml
+!include Entities/CarType.puml
+
 
 client ||..o{ rental
 car ||..o{ rental
 client ||..o{ review
 client ||..o{ rent
+client ||..o{ payment
+car }o..o{ carFeatures
+car ||..|| carModel
+car ||..|| carType
 @enduml
