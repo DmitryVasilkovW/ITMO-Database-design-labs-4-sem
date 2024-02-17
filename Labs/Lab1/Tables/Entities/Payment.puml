@@ -4,7 +4,7 @@ entity "Payment" as payment
   +<&key> Client_ID : int
   --
   <&spreadsheet> Credit_Card_Number : int
-  <&spreadsheet> Payment_Date : int
-  <&spreadsheet> Amount_Paid : numeric
+  <&spreadsheet> Password : int
+  <&spreadsheet> CVV : int
 }
 @enduml

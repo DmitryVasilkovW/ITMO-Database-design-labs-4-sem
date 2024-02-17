@@ -4,26 +4,20 @@
 !include Entities/Car.puml
 !include Entities/Review.puml
 !include Entities/RentalAgreement.puml
-!include Entities/Rent.puml
 !include Entities/CarFeatures.puml
 !include Entities/CarModels.puml
-!include Entities/CarType.puml
-!include Entities/CarCategory.puml
 !include Entities/Brand.puml
-!include Entities/RentalPrice.puml
+!include Entities/ParticularModel.puml
 
 
 client ||..o{ rental
 client ||..o{ review
-client ||..o{ rent
 client ||..o{ payment
 car ||..o{ rental
 car }o....o{ carFeatures
-car ||..o{ carType
-car }o..o{ carCategory
 car }o..|| brand
-car ||..o{ rentalPrice
-brand ||..|| carModel
+brand ||..o{ carModel
+carModel ||..|| particularModel
 car --up[hidden]-- client
 car --up[hidden]- carFeatures
 @enduml

@@ -1,7 +1,7 @@
 @startuml
 entity "Car Model" as carModel
 {
-  +<&key> Car_Model : varchar
+  +<&key> Car_Model_ID : int
   --
   <&spreadsheet> Model : varchar
 }

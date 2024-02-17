@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="fix: variables types">
+    <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="fix: all">
+      <change afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/ParticularModel.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/DatabaseSchemaOfTheCarRentalWebsite.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/DatabaseSchemaOfTheCarRentalWebsite.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Brand.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Brand.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Car.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Car.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/CarCategory.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/CarModels.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/CarModels.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/CarType.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Payment.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Payment.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Rent.puml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +75,7 @@
       <workItem from="1708015343530" duration="11579000" />
       <workItem from="1708032217789" duration="5902000" />
       <workItem from="1708096965152" duration="12735000" />
+      <workItem from="1708117861378" duration="5853000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1708012432238</created>
@@ -221,7 +231,8 @@
     <MESSAGE value="feat: Car Category" />
     <MESSAGE value="feat: rental price" />
     <MESSAGE value="fix: variables types" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: variables types" />
+    <MESSAGE value="fix: all" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: all" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

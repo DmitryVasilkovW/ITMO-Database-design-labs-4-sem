@@ -1,0 +1,7 @@
+@startuml
+entity "Particular Model" as particularModel
+{
+  + <&key> Car_Model_ID : int
+  <&spreadsheet> Particular_Model : varchar
+}
+@enduml

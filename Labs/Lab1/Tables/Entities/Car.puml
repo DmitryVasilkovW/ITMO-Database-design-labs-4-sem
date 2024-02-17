@@ -8,5 +8,7 @@ entity "Car" as car
   <&spreadsheet> Rent_Price : numeric
   <&spreadsheet> Actuator_Type  : varchar
   <&spreadsheet> Engine_Displacement : float
+  <&spreadsheet> Type_Of_Bodywork : varchar
+  <&spreadsheet> Rental_Cost : numeric
 }
 @enduml
