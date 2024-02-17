@@ -1,7 +1,7 @@
 @startuml
 entity "Payment" as payment
 {
-  +<&key> Client_ID : int
+  #<&key> Client_ID : int
   --
   <&spreadsheet> Credit_Card_Number : int
   <&spreadsheet> Password : int

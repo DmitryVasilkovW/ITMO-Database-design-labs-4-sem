@@ -1,7 +1,7 @@
 @startuml
 entity "Car Features" as carFeatures
 {
-  +<&key> Car_ID : int
+  #<&key> Car_ID : int
   --
   <&spreadsheet> Air_Conditioner_Type : varchar
   <&spreadsheet> Navigation_System_Type : varchar

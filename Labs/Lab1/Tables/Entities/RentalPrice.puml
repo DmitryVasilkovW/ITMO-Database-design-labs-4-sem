@@ -1,8 +1,0 @@
-@startuml
-entity "Rental Price" as rentalPrice
-{
-  + <&key> Car_ID : int
-  --
-  <&spreadsheet> Rental_Cost : numeric
-}
-@enduml
