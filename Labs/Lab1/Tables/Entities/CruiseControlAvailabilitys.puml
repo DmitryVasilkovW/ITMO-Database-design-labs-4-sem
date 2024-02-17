@@ -1,0 +1,12 @@
+@startuml
+entity "Cruise Control Availability" as cruiseControlAvailability
+{
+  +<&key> ID : int
+  --
+  #<&key> Car_ID : int
+  <&spreadsheet> Name : varchar
+  <&spreadsheet> Manufacturer : varchar
+  <&spreadsheet> Model : varchar
+  <&spreadsheet> Year : int
+}
+@enduml

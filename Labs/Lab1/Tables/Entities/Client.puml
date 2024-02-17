@@ -1,7 +1,7 @@
 @startuml
-entity "Client" as client
+entity "Clients" as client
 {
-  #<&key> Client_ID : int
+  #<&key> ID : int
   --
   <&spreadsheet> Name : varchar
   <&spreadsheet> Contact_Info : varchar

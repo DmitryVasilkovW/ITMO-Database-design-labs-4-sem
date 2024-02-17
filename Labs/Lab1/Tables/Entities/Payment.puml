@@ -1,5 +1,5 @@
 @startuml
-entity "Payment" as payment
+entity "Cards" as payment
 {
   #<&key> Client_ID : int
   --

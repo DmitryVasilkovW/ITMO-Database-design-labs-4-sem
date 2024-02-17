@@ -1,7 +1,7 @@
 @startuml
-entity "Car" as car
+entity "Cars" as car
 {
-  +<&key> Car_ID : int
+  +<&key> ID : int
   --
   <&spreadsheet> Vehicle_Model_Year : int
   <&spreadsheet> Transmission_Type  : varchar

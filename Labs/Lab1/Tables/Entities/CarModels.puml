@@ -1,8 +1,10 @@
 @startuml
 entity "Car Model" as carModel
 {
-  +<&key> Car_Model_ID : int
+  +<&key> ID : int
   --
   <&spreadsheet> Model : varchar
+  <&spreadsheet> Number_of_Doors : int
+  <&spreadsheet> Year : date
 }
 @enduml

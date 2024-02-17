@@ -1,9 +1,9 @@
 @startuml
-entity "Review" as review
+entity "Reviews" as review
  {
-  + <&key> Review_ID : int
+  + <&key> ID : int
   --
-  # <&key> Client_ID : int
+  # <&key> Agreement_ID : int
   <&spreadsheet> Review_Text : text
   <&spreadsheet> Review_Date : date
 }

@@ -1,0 +1,14 @@
+@startuml
+entity "Air Conditioners" as  airConditioners
+{
+  +<&key> ID : int
+  --
+  #<&key> Car_ID : int
+  <&spreadsheet> Name : varchar
+  <&spreadsheet> Manufacturer : varchar
+  <&spreadsheet> Model : varchar
+  <&spreadsheet> Year : int
+  <&spreadsheet> Energy_Efficiency_Rating : float
+  <&spreadsheet> Cooling_Capacity : float
+}
+@enduml

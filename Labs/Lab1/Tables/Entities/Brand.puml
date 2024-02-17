@@ -1,5 +1,5 @@
 @startuml
-entity "Brand" as brand
+entity "Brands" as brand
 {
   # <&key> Car_ID : int
   --

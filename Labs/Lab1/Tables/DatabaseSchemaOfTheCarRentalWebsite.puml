@@ -4,21 +4,27 @@
 !include Entities/Car.puml
 !include Entities/Review.puml
 !include Entities/RentalAgreement.puml
-!include Entities/CarFeatures.puml
 !include Entities/CarModels.puml
 !include Entities/Brand.puml
 !include Entities/ParticularModel.puml
+!include Entities/Airconditioners.puml
+!include Entities/CruiseControlAvailabilitys.puml
+!include Entities/NavigationSystems.puml
 
 title Car rental
 
 client ||..o{ rental
-client ||..o{ review
 client ||..o{ payment
 car ||..o{ rental
-car }o....o{ carFeatures
 car }o..|| brand
+car ||..|| navigationSystems
+car ||..|| cruiseControlAvailability
+car ||..|| airConditioners
 brand ||..o{ carModel
 carModel ||..|| particularModel
+rental ||..|| review
 car --up[hidden]-- client
-car --up[hidden]- carFeatures
+car --up[hidden]-- navigationSystems
+car --up[hidden]-- cruiseControlAvailability
+car --up[hidden]-- airConditioners
 @enduml

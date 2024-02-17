@@ -1,7 +1,7 @@
 @startuml
-entity "Rental Agreement" as rental
+entity "Rental Agreements" as rental
 {
-  + <&key> Agreement_ID : int
+  + <&key> ID : int
   --
   # <&key> Client_ID : int
   # <&key> Car_ID : int

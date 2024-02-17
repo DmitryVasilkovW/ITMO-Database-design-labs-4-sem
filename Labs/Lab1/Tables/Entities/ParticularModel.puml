@@ -1,7 +1,20 @@
 @startuml
-entity "Particular Model" as particularModel
+entity "Particular Models" as particularModel
 {
+  + <&key> ID : int
+  --
   # <&key> Car_Model_ID : int
-  <&spreadsheet> Particular_Model : varchar
+  <&spreadsheet> Name : varchar
+  <&spreadsheet> Length : float
+  <&spreadsheet> Width : float
+  <&spreadsheet> Height : float
+  <&spreadsheet> Wheelbase : float
+  <&spreadsheet> Ground_Clearance : float
+  <&spreadsheet> Curb_Weight : float
+  <&spreadsheet> Gross_Vehicle_Weight : float
+  <&spreadsheet> Cargo_Capacity : float
+  <&spreadsheet> Towing_Capacity : float
+  <&spreadsheet> Fuel_Capacity : float
+  <&spreadsheet> Number_of_Seats : int
 }
 @enduml

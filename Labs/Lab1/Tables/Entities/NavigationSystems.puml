@@ -1,0 +1,14 @@
+@startuml
+entity "Navigation Systems" as navigationSystems
+{
+  +<&key> ID : int
+  --
+  #<&key> Car_ID : int
+  <&spreadsheet> Name : varchar
+  <&spreadsheet> Manufacturer : varchar
+  <&spreadsheet> Model : varchar
+  <&spreadsheet> Year : int
+  <&spreadsheet> Screen_Size : float
+  <&spreadsheet> Connectivity : varchar
+}
+@enduml

@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="fix: all" />
+    <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="fix: all">
+      <change afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/AirConditioners.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/CruiseControlAvailabilitys.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/NavigationSystems.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/DatabaseSchemaOfTheCarRentalWebsite.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/DatabaseSchemaOfTheCarRentalWebsite.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Brand.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Brand.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Car.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Car.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/CarFeatures.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/CarModels.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/CarModels.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Client.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Client.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/ParticularModel.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/ParticularModel.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Payment.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Payment.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/RentalAgreement.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/RentalAgreement.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Review.puml" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab1/Tables/Entities/Review.puml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +79,8 @@
       <workItem from="1708015343530" duration="11579000" />
       <workItem from="1708032217789" duration="5902000" />
       <workItem from="1708096965152" duration="12735000" />
-      <workItem from="1708117861378" duration="6722000" />
+      <workItem from="1708117861378" duration="7367000" />
+      <workItem from="1708173106446" duration="3838000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1708012432238</created>
@@ -206,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708130072593</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fix: all">
+      <created>1708130799128</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1708130799128</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
