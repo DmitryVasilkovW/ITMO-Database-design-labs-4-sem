@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="fix: all">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_2_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2/Lab2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab2/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ITMO-Database-design-labs-4-sem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ITMO-Database-design-labs-4-sem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_02_2024,_23_02_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_16_02_2024__23_02__Changes_.xml" beforeDir="false" />
+    <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="feat: lab2">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab2/src/Brands.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab2/src/Cards.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab2/src/Cars.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab2/src/Clients.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab2/src/Drop.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab2/src/RentalAgreements.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab2/src/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab2/src/insert.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lab-1" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
   </component>
@@ -63,15 +63,26 @@
     "project.structure.side.proportion": "0.35948646",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "SQL",
+      "yaml"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Labs/Lab2/src" />
+      <recent name="$PROJECT_DIR$/Labs/Lab2" />
       <recent name="$PROJECT_DIR$/Labs" />
       <recent name="$PROJECT_DIR$/Labs/Lab1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.Lab2/docker-compose.yaml.postgres: Compose Deployment">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Lab2" />
@@ -98,8 +109,35 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="Lab2/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="Labs/Lab2/docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Lab2/docker-compose.yaml.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="postgres" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Labs/Lab2/docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Lab2/docker-compose.yaml.postgres: Compose Deployment" />
+        <item itemvalue="Docker.Lab2/docker-compose.yaml: Compose Deployment" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -122,7 +160,9 @@
       <workItem from="1708117861378" duration="7367000" />
       <workItem from="1708173106446" duration="5364000" />
       <workItem from="1709050491494" duration="5000" />
-      <workItem from="1709325962298" duration="3707000" />
+      <workItem from="1709325962298" duration="4159000" />
+      <workItem from="1709379870850" duration="308000" />
+      <workItem from="1709380305358" duration="6242000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1708012432238</created>
@@ -299,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708178737847</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat: lab2">
+      <created>1709335265156</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1709335265156</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +382,8 @@
     <MESSAGE value="feat: rental price" />
     <MESSAGE value="fix: variables types" />
     <MESSAGE value="fix: all" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: all" />
+    <MESSAGE value="feat: lab2" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: lab2" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
