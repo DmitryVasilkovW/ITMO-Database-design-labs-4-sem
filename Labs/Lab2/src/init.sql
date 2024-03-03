@@ -31,7 +31,7 @@ CREATE TABLE Brands
 (
          Car_ID INT,
          Car_Model_ID INT,
-         Brand_ VARCHAR(255),
+         Brand VARCHAR(255),
          FOREIGN KEY (Car_ID) REFERENCES Cars(ID)
 );
 
@@ -42,7 +42,7 @@ CREATE TABLE Rental_Agreements
          Car_ID INT,
          Start_Date DATE,
          End_Date DATE,
-         Total_Cost_ NUMERIC,
+         Total_Cost NUMERIC,
          FOREIGN KEY (Client_ID) REFERENCES Clients(ID),
          FOREIGN KEY (Car_ID) REFERENCES Cars(ID)
 );
@@ -50,19 +50,19 @@ CREATE TABLE Rental_Agreements
 CREATE TABLE Reviews
 (
           ID INT PRIMARY KEY,
-          Agreement_ID_ INT,
+          Agreement_ID INT,
           Review_Text TEXT,
-          FOREIGN KEY (Agreement_ID_) REFERENCES Rental_Agreements(ID)
+          FOREIGN KEY (Agreement_ID) REFERENCES Rental_Agreements(ID)
 );
 
 CREATE TABLE Cruise_Control_Availability
 (
           ID INT PRIMARY KEY,
           Car_ID INT,
-          Name_ VARCHAR(255),
-          Manufacturer_ VARCHAR(255),
-          Model_ VARCHAR(255),
-          Year_ INT,
+          Name VARCHAR(255),
+          Manufacturer VARCHAR(255),
+          Model VARCHAR(255),
+          Year INT,
           FOREIGN KEY (Car_ID) REFERENCES Cars(ID)
 );
 
@@ -70,11 +70,11 @@ CREATE TABLE Navigation_Systems
 (
            ID INT PRIMARY KEY,
            Car_ID INT,
-           Name_ VARCHAR(255),
-           Manufacturer_ VARCHAR(255),
-           Model_ VARCHAR(255),
-           Screen_Size_ FLOAT,
-           Connectivity_ VARCHAR(255),
+           Name VARCHAR(255),
+           Manufacturer VARCHAR(255),
+           Model VARCHAR(255),
+           Screen_Size FLOAT,
+           Connectivity VARCHAR(255),
            FOREIGN KEY (Car_ID) REFERENCES Cars(ID)
 );
 
@@ -82,12 +82,12 @@ CREATE TABLE Air_Conditioners
 (
            ID INT PRIMARY KEY,
            Car_ID INT,
-           Name_ VARCHAR(255),
-           Manufacturer_ VARCHAR(255),
-           Model_ VARCHAR(255),
-           Year_ INT,
-           Energy_Efficiency_Rating_ FLOAT,
-           Cooling_Capacity_ FLOAT,
+           Name VARCHAR(255),
+           Manufacturer VARCHAR(255),
+           Model VARCHAR(255),
+           Year INT,
+           Energy_Efficiency_Rating FLOAT,
+           Cooling_Capacity FLOAT,
            FOREIGN KEY (Car_ID) REFERENCES Cars(ID)
 );
 
@@ -95,9 +95,9 @@ CREATE TABLE Particular_Models
 (
           ID INT PRIMARY KEY,
           Car_Model_ID INT,
-          Length_ FLOAT,
-          Width_ FLOAT,
-          Height_ FLOAT,
+          Length FLOAT,
+          Width FLOAT,
+          Height FLOAT,
           Weight FLOAT,
           Ground_Clearance FLOAT,
           Cross_weight FLOAT,

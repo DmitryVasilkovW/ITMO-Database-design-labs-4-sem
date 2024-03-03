@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="feat: lab2">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab2/src/Brands.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2/src/CSVTables/Brands.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab2/src/Cards.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2/src/CSVTables/Cards.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab2/src/Cars.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2/src/CSVTables/Cars.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab2/src/Clients.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2/src/CSVTables/Clients.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab2/src/RentalAgreements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2/src/CSVTables/RentalAgreements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab2/src/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab2/src/init.sql" afterDir="false" />
-    </list>
+    <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="fix: number of card type" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +155,7 @@
       <workItem from="1709325962298" duration="4159000" />
       <workItem from="1709379870850" duration="308000" />
       <workItem from="1709380305358" duration="6242000" />
-      <workItem from="1709488504562" duration="1021000" />
+      <workItem from="1709488504562" duration="1399000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1708012432238</created>
@@ -350,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709335265156</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fix: number of card type">
+      <created>1709489713391</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1709489713391</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +383,8 @@
     <MESSAGE value="fix: variables types" />
     <MESSAGE value="fix: all" />
     <MESSAGE value="feat: lab2" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: lab2" />
+    <MESSAGE value="fix: number of card type" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: number of card type" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
