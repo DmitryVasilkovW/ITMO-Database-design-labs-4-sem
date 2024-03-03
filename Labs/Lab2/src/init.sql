@@ -8,7 +8,7 @@ CREATE TABLE clients
 CREATE TABLE cards
 (
         Client_ID INT,
-        Credit_Card_Number INT,
+        Credit_Card_Number BIGINT,
         Password INT,
         CVV INT,
         FOREIGN KEY (Client_ID) REFERENCES clients(ID)
