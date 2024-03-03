@@ -1,4 +1,4 @@
-ID,Client_ID,Car_ID,Start_Date,End_Date,Total_Cost_
+ID,Client_ID,Car_ID,Start_Date,End_Date,Total_Cost
 1,1,1,2022-01-10,2022-01-20,567.89
 2,2,2,2022-02-12,2022-02-22,678.90
 3,3,3,2022-03-15,2022-03-25,789.01
