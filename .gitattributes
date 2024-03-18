@@ -2,5 +2,3 @@
 *.puml linguist-language=PlantUML
 *.sql linguist-detectable=true
 *.sql linguist-language=SQL
-*docker linguist-detectable=true
-*docker linguist-language=Dockerfile
