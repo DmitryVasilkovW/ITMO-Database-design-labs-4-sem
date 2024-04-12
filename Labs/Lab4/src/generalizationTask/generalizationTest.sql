@@ -1,0 +1,1 @@
+select * from mv_clients_generalized;
