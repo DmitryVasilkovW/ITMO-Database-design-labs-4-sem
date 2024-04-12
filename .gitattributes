@@ -4,3 +4,5 @@
 *.sql linguist-language=SQL
 fake_data_generator.sql linguist-language=PLpgSQL
 advanced_fake_data_generator.sql linguist-language=PLpgSQL
+random_date.sql linguist-language=PLpgSQL
+scramble.sql linguist-language=PLpgSQL
