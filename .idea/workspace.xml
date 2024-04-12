@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="feat: lab3">
-      <change afterPath="$PROJECT_DIR$/Labs/Lab3/src/task.sql" afterDir="false" />
+    <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="add: new task">
+      <change afterPath="$PROJECT_DIR$/Labs/Lab4/src/anonimus.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab4/src/anonimus_test.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab4/src/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab4/src/random_date.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ITMO-Database-design-labs-4-sem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ITMO-Database-design-labs-4-sem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,54 +45,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15846336&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.35948646&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Sequence",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15846336",
+    "project.structure.side.proportion": "0.35948646",
+    "settings.editor.selected.configurable": "database.query.execution",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;SQL&quot;,
-      &quot;yaml&quot;
+    "RunConfigurationTargetLRU": [
+      "1d64a646-ea37-46db-b19f-4487fff87c82"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "SQL",
+      "yaml"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Labs/Lab3" />
       <recent name="$PROJECT_DIR$/Labs" />
       <recent name="$PROJECT_DIR$/Labs/Lab2/src/CSVTables" />
       <recent name="$PROJECT_DIR$/Labs/Lab2/src" />
       <recent name="$PROJECT_DIR$/Labs/Lab2" />
+      <recent name="$PROJECT_DIR$/Labs/Lab1" />
     </key>
   </component>
-  <component name="RunManager" selected="Database Script.insert.sql">
-    <configuration name="ShowIndex.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/Labs/Lab3/src/ShowIndex.sql" />
+  <component name="RunManager" selected="Database Script.anonimus.sql">
+    <configuration name="anonimus.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/Labs/Lab4/src/anonimus.sql" />
       <script-mode>FILE</script-mode>
+      <data-source id="1d64a646-ea37-46db-b19f-4487fff87c82" />
       <method v="2" />
     </configuration>
-    <configuration name="insert.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/Labs/Lab2/src/insert.sql" />
+    <configuration name="init.sql (1)" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/Labs/Lab4/src/init.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="1d64a646-ea37-46db-b19f-4487fff87c82" />
+      <method v="2" />
+    </configuration>
+    <configuration name="init.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/Labs/Lab2/src/init.sql" />
       <script-mode>FILE</script-mode>
       <method v="2" />
     </configuration>
@@ -107,6 +125,14 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="Lab2/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="Labs/Lab2/docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="Lab2/docker-compose.yaml.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -120,27 +146,6 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="Lab3/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="Labs/Lab3/docker-compose.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="Lab3/docker-compose.yaml.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="postgres" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="Labs/Lab3/docker-compose.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -149,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Database Script.insert.sql" />
-        <item itemvalue="Docker.Lab3/docker-compose.yaml.postgres: Compose Deployment" />
-        <item itemvalue="Docker.Lab3/docker-compose.yaml: Compose Deployment" />
-        <item itemvalue="Database Script.ShowIndex.sql" />
+        <item itemvalue="Database Script.anonimus.sql" />
+        <item itemvalue="Database Script.init.sql (1)" />
+        <item itemvalue="Database Script.init.sql" />
         <item itemvalue="Docker.Lab2/docker-compose.yaml.postgres: Compose Deployment" />
+        <item itemvalue="Docker.Lab2/docker-compose.yaml: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -178,11 +183,8 @@
       <workItem from="1709325962298" duration="4159000" />
       <workItem from="1709379870850" duration="308000" />
       <workItem from="1709380305358" duration="6242000" />
-      <workItem from="1709488504562" duration="1863000" />
-      <workItem from="1709736378864" duration="3092000" />
-      <workItem from="1710545158954" duration="109000" />
-      <workItem from="1710591731479" duration="597000" />
-      <workItem from="1710592378687" duration="3479000" />
+      <workItem from="1709488504562" duration="1399000" />
+      <workItem from="1712925721550" duration="3927000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1708012432238</created>
@@ -373,21 +375,7 @@
       <option name="project" value="LOCAL" />
       <updated>1709489713391</updated>
     </task>
-    <task id="LOCAL-00028" summary="fix: names">
-      <created>1709490364225</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1709490364225</updated>
-    </task>
-    <task id="LOCAL-00029" summary="feat: lab3">
-      <created>1710545205154</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1710545205154</updated>
-    </task>
-    <option name="localTasksCounter" value="30" />
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,9 +413,7 @@
     <MESSAGE value="fix: all" />
     <MESSAGE value="feat: lab2" />
     <MESSAGE value="fix: number of card type" />
-    <MESSAGE value="fix: names" />
-    <MESSAGE value="feat: lab3" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: lab3" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: number of card type" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
