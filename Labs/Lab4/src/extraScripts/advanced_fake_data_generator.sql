@@ -1,3 +1,4 @@
+--language=PLpgSQL
 CREATE OR REPLACE FUNCTION advanced_fake_data_generator(data_type text)
     RETURNS text AS $$
 DECLARE
