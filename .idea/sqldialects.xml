@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/Labs/Lab5/src/extraScripts/insert.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab5/src/extraScripts/migration.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab5/src/extraScripts/rebaseData.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab5/src/partitions/Partitions.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Labs/Lab5/src/trigger/trigger.sql" dialect="PostgreSQL" />
+  </component>
+</project>

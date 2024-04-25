@@ -4,17 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="add: new task">
-      <change afterPath="$PROJECT_DIR$/Labs/Lab4/src/anonimus.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab4/src/anonimus_test.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab4/src/init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab4/src/random_date.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ITMO-Database-design-labs-4-sem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ITMO-Database-design-labs-4-sem.iml" afterDir="false" />
+    <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="feat: strategies">
+      <change afterPath="$PROJECT_DIR$/Labs/Lab5/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab5/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab5/Lab5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab5/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab5/src/extraScripts/insert.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab5/src/extraScripts/migration.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab5/src/extraScripts/rebaseData.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab5/src/partitions/Partitions.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab5/src/trigger/trigger.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/anon.zMItAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/anon.zMItAA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -36,10 +43,31 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DmitryVasilkovW"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DmitryVasilkovW/ITMO-Database-design-labs-4-sem",
+    "accountId": "3ff08969-64f4-400f-ae16-d2c77eb8ee31"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="2cPSPpku7TkE4WDUFwNFsPpPYTr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,19 +75,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Database Script.insert.sql.executor": "Run",
+    "Database Script.migration.sql.executor": "Run",
     "DefaultPlantUmlFileTemplate": "UML Sequence",
+    "Docker.Lab5/Dockerfile.executor": "Run",
+    "Docker.Lab5/docker-compose.yaml: Compose Deployment.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "lab-5",
     "go.import.settings.migrated": "true",
     "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15846336",
     "project.structure.side.proportion": "0.35948646",
@@ -88,22 +124,24 @@
       <recent name="$PROJECT_DIR$/Labs/Lab1" />
     </key>
   </component>
-  <component name="RunManager" selected="Database Script.anonimus.sql">
-    <configuration name="anonimus.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/Labs/Lab4/src/anonimus.sql" />
+  <component name="RunManager" selected="Database Script.insert.sql">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Lab5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="insert.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/Labs/Lab5/src/extraScripts/insert.sql" />
       <script-mode>FILE</script-mode>
       <data-source id="1d64a646-ea37-46db-b19f-4487fff87c82" />
       <method v="2" />
     </configuration>
-    <configuration name="init.sql (1)" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/Labs/Lab4/src/init.sql" />
+    <configuration name="migration.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/Labs/Lab5/src/extraScripts/migration.sql" />
       <script-mode>FILE</script-mode>
       <data-source id="1d64a646-ea37-46db-b19f-4487fff87c82" />
-      <method v="2" />
-    </configuration>
-    <configuration name="init.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/Labs/Lab2/src/init.sql" />
-      <script-mode>FILE</script-mode>
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -125,23 +163,18 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="Lab2/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
+    <configuration name="Lab5/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
         <settings>
-          <option name="sourceFilePath" value="Labs/Lab2/docker-compose.yaml" />
+          <option name="sourceFilePath" value="Labs/Lab5/Dockerfile" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="Lab2/docker-compose.yaml.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+    <configuration name="Lab5/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
-          <option name="services">
-            <list>
-              <option value="postgres" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="Labs/Lab2/docker-compose.yaml" />
+          <option name="sourceFilePath" value="Labs/Lab5/docker-compose.yaml" />
         </settings>
       </deployment>
       <method v="2" />
@@ -152,15 +185,27 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Database Script.anonimus.sql" />
-        <item itemvalue="Database Script.init.sql (1)" />
-        <item itemvalue="Database Script.init.sql" />
-        <item itemvalue="Docker.Lab2/docker-compose.yaml.postgres: Compose Deployment" />
-        <item itemvalue="Docker.Lab2/docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Database Script.insert.sql" />
+        <item itemvalue="Docker.Lab5/Dockerfile" />
+        <item itemvalue="Docker.Lab5/docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Database Script.migration.sql" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -185,6 +230,9 @@
       <workItem from="1709380305358" duration="6242000" />
       <workItem from="1709488504562" duration="1399000" />
       <workItem from="1712925721550" duration="3927000" />
+      <workItem from="1713010577607" duration="1793000" />
+      <workItem from="1713286815156" duration="15000" />
+      <workItem from="1714057218930" duration="6076000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1708012432238</created>
