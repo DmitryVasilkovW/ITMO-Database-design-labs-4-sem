@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93df49e8-3260-476c-b0e0-77b4cfd6ae96" name="Changes" comment="feat: strategies">
-      <change afterPath="$PROJECT_DIR$/Labs/Lab5/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab5/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab5/Lab5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab5/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab5/src/extraScripts/insert.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab5/src/extraScripts/migration.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab5/src/extraScripts/rebaseData.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab5/src/partitions/Partitions.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab5/src/trigger/trigger.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/anon.zMItAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/anon.zMItAA.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1d64a646-ea37-46db-b19f-4487fff87c82/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,29 +28,29 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DmitryVasilkovW"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DmitryVasilkovW&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DmitryVasilkovW/ITMO-Database-design-labs-4-sem",
-    "accountId": "3ff08969-64f4-400f-ae16-d2c77eb8ee31"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DmitryVasilkovW/ITMO-Database-design-labs-4-sem&quot;,
+    &quot;accountId&quot;: &quot;3ff08969-64f4-400f-ae16-d2c77eb8ee31&quot;
   }
-}]]></component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2cPSPpku7TkE4WDUFwNFsPpPYTr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -87,7 +70,7 @@
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "lab-5",
+    "git-widget-placeholder": "lab-6",
     "go.import.settings.migrated": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
@@ -186,7 +169,9 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -461,7 +446,8 @@
     <MESSAGE value="fix: all" />
     <MESSAGE value="feat: lab2" />
     <MESSAGE value="fix: number of card type" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: number of card type" />
+    <MESSAGE value="feat: lab5" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: lab5" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
