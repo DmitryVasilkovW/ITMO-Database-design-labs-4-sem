@@ -1,6 +1,5 @@
 *.puml linguist-detectable=true
 *.puml linguist-language=PlantUML
 *.sql linguist-detectable=true
-*.sql linguist-language=SQL
 *.sql linguist-language=PLpgSQL
 
