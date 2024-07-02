@@ -23,9 +23,8 @@
 5. Типы атрибутов должны быть указаны.
 6. Должна существовать таблица пользователей.
 
-## Варианты:
-1. Заказ продуктов, товаров в магазине (например: [https://lenta.com/](https://lenta.com/), [https://www.perekrestok.ru/](https://www.perekrestok.ru/), [https://www.metro-cc.ru/](https://www.metro-cc.ru/))
-2. Выбор и покупка билетов на поезд [https://www.rzd.ru/](https://www.rzd.ru/)
+## Вариант:
+17 Аренда автомобилей (например, https://www.sixt.ru/)
 
 ---
 
